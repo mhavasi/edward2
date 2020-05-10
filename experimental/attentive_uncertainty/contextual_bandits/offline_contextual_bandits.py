@@ -16,10 +16,6 @@
 """Thompson sampling for contextual bandit problems via offline SNPs.
 """
 
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-
 from experimental.attentive_uncertainty import regressor  # local file import
 from experimental.attentive_uncertainty.contextual_bandits import utils  # local file import
 import numpy as np

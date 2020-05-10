@@ -16,10 +16,6 @@
 """Pretrains generalized neural processes for the wheel bandit task.
 """
 
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-
 from experimental.attentive_uncertainty import generalized_neural_process  # local file import
 from experimental.attentive_uncertainty.contextual_bandits import utils  # local file import
 import numpy as np
